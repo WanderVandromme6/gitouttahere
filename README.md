@@ -1,5 +1,5 @@
 # gitouttahere
 
-Silke Van den Brempt
-Lomme Tack
-Wander Vandromme
+- Silke Van den Brempt
+- Lomme Tack
+- Wander Vandromme
