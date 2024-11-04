@@ -13,8 +13,6 @@ body {
     height: 100vh;
     font-family: monospace;
     font-size: 1rem;
-    display: grid;
-    place-items: center;
     gap: 1rem;
 }
 
@@ -28,6 +26,10 @@ main {
 
 h1 {
     font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
 }
 
 ul {
@@ -91,4 +93,14 @@ input:invalid {
 form:has(:invalid) button {
     opacity: 0.1;
     background-color: #ff0000;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.back__link {
+    margin-inline-start: 3rem;
 }
