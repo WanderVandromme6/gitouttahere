@@ -1,3 +1,10 @@
 .square {
     background-color: #f00;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
 }
