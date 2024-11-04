@@ -1,3 +1,9 @@
+.grid__container {
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(5, 100px);
+}
+
 .square {
     background-color: #f00;
     width: 100px;
@@ -7,4 +13,17 @@
     align-items: center;
     color: white;
     font-size: 40px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    background-image: url(../assets/cat.jpg);
+}
+
+.square:hover {
+    opacity: 1;
+}
+
+.text__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

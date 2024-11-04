@@ -70,6 +70,13 @@ form {
     border: solid 2px var(--primary);
     padding: 1rem;
     background-color: var(--primary-light);
+    max-width: 80%;
+}
+
+.form__container {
+    display: flex;
+    justify-content: center;
+    min-width: 80%;
 }
 
 button {
